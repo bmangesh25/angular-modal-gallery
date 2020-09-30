@@ -76,7 +76,6 @@
       "pre-commit": "pretty-quick --staged --verbose"
     }
   },
-  "private": false,
   "dependencies": {
     "@angular/animations": "^7.1.1",
     "@angular/cdk": "^7.1.1",
