@@ -1,6 +1,6 @@
 {
   "name": "@bmangesh/angular-image-gallery-view",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "Modal image gallery for Angular >=2",
   "license": "MIT",
   "author": "Stefano Cappa",
