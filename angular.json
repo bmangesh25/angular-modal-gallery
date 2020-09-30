@@ -118,30 +118,33 @@
       }
     },
     "@bmangesh/angular-image-gallery-view": {
-      "root": "projects/ks89/angular-modal-gallery",
-      "sourceRoot": "projects/ks89/angular-modal-gallery/src",
+      "root": "projects/bmangesh/angular-image-gallery-view",
+      "sourceRoot": "projects/bmangesh/angular-image-gallery-view/src",
       "projectType": "library",
       "prefix": "ks",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ks89/angular-modal-gallery/tsconfig.lib.json",
-            "project": "projects/ks89/angular-modal-gallery/ng-package.json"
+            "tsConfig": "projects/bmangesh/angular-image-gallery-view/tsconfig.lib.json",
+            "project": "projects/bmangesh/angular-image-gallery-view/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ks89/angular-modal-gallery/src/test.ts",
-            "tsConfig": "projects/ks89/angular-modal-gallery/tsconfig.spec.json",
-            "karmaConfig": "projects/ks89/angular-modal-gallery/karma.conf.js"
+            "main": "projects/bmangesh/angular-image-gallery-view/src/test.ts",
+            "tsConfig": "projects/bmangesh/angular-image-gallery-view/tsconfig.spec.json",
+            "karmaConfig": "projects/bmangesh/angular-image-gallery-view/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["projects/ks89/angular-modal-gallery/tsconfig.lib.json", "projects/ks89/angular-modal-gallery/tsconfig.spec.json"],
+            "tsConfig": [
+              "projects/bmangesh/angular-image-gallery-view/tsconfig.lib.json",
+              "projects/bmangesh/angular-image-gallery-view/tsconfig.spec.json"
+            ],
             "exclude": ["**/node_modules/**"]
           }
         }

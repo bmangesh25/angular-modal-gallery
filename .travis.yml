@@ -29,7 +29,7 @@ addons:
     packages:
       - google-chrome-stable
   sonarcloud:
-    organization: "ks89-github"
+    organization: "bmagnesh25-github"
     token:
       secure: "lGnfg86i8xQWtRqDNqzYh0jqhh0XBsRev6rwKvtccP9Ql5b4ZGDnvdxVASZLBF4fpSFZOeS36ciIGv1gxNQvISFBl3JIesDZjxWiSwMa3/mc5sVfDKuQaSeQ7QMgY0HakrBjKj8iOzu47jMTUBOpFsNtTffTZP31tlDrtkb0IoxmQYFRdWuWGpy3FBAzc+bAQI4W1XCELX/zMvqAJDgt3LrO6EzeU/D8M85DIZPmj2jA8hs5ODRuQnwPCfqoNqJWdMU3IbyHLYgApji6CJidkyiT78mOFcsedtyqUK8dF9FhoZI4FEMLqd/xqvFDzrwyBN6d8/7+gBMYqrYyskXhLjvQnz4op2TMgl0CyuVTNGmSi92kXJXbwQq/D7SPtBEL1Ca3q2V0Qwt0j+qQXz4uXKiUtKC5ufZAzvvmEFq0w801i4bXfLPqZFQwL1Va1diaH/n/dfw60jYuBQ5T/XySEkpfLzIdr0hZaQkS/s6xZiyKKVhvvlrGK8QrW9RyEI6GMnES3zcKFLkw6frVR8ynjqCI0ucNWr+PpkaWbrjRsn41VLUAGrijj1TF0z7IXbXmd4MY9N3zhUKSZIgPJoBd29asM7Yxoqkrua1ZxFaSrmUsyhke+OxJBBMEoLWb31ldvn1HL3RYJ7KwVFmeMVDu8aKK/4aUtd/WP79t5jU88/o="
 jdk:
