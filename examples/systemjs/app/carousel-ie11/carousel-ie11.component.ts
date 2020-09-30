@@ -24,7 +24,7 @@
 
 import { Component } from '@angular/core';
 
-import { Image } from '@ks89/angular-modal-gallery';
+import { Image } from '@bmangesh/angular-image-gallery-view';
 
 @Component({
   selector: 'ks-carousel-ie11-page',

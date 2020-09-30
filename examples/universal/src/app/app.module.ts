@@ -40,7 +40,7 @@ import { HomeComponent } from './home/home.component';
 import { IntroHeaderComponent } from './intro-header/intro-header.component';
 
 // ********************** angular-modal-gallery *****************************
-import { GalleryModule } from '@ks89/angular-modal-gallery'; // <----------------- angular-modal-gallery library import
+import { GalleryModule } from '@bmangesh/angular-image-gallery-view'; // <----------------- angular-modal-gallery library import
 // **************************************************************************
 
 // ************************ optional font-awesome 5 ************************

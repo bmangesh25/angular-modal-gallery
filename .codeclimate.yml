@@ -28,7 +28,7 @@ ratings:
   - "**.css"
   - "**.scss"
 exclude_paths:
-- "@ks89"
+- "@bmangesh"
 - "node_modules/"
 - ".circleci/"
 - ".github/"

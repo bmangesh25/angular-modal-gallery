@@ -48,7 +48,7 @@ import {
   LoadingConfig,
   LoadingType,
   CurrentImageConfig
-} from '@ks89/angular-modal-gallery';
+} from '@bmangesh/angular-image-gallery-view';
 
 @Component({
   selector: 'ks-modal-gallery-page',

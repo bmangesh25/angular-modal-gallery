@@ -25,7 +25,7 @@
 import { async, inject, TestBed } from '@angular/core/testing';
 
 import { GalleryService, InternalGalleryPayload } from './gallery.service';
-import { Image } from '@ks89/angular-modal-gallery';
+import { Image } from '@bmangesh/angular-image-gallery-view';
 
 const IMAGE: Image = new Image(0, {
   // modal

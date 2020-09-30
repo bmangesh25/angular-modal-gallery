@@ -117,7 +117,7 @@
         }
       }
     },
-    "@ks89/angular-modal-gallery": {
+    "@bmangesh/angular-image-gallery-view": {
       "root": "projects/ks89/angular-modal-gallery",
       "sourceRoot": "projects/ks89/angular-modal-gallery/src",
       "projectType": "library",

@@ -34,7 +34,7 @@ import {
   LineLayout,
   PlainGalleryConfig,
   PlainGalleryStrategy
-} from '@ks89/angular-modal-gallery';
+} from '@bmangesh/angular-image-gallery-view';
 
 @Component({
   selector: 'ks-plain-gallery-page',
