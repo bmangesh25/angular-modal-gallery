@@ -66,23 +66,23 @@ export class KeyboardService {
    * Method to add a lister for ctrl+s/cmd+s keyboard events.
    * @param (e: ExtendedKeyboardEvent, combo: string) => any onBind callback function to add shortcuts
    */
-  add(onBind: (e: ExtendedKeyboardEvent, combo: string) => any) {
-    // temporary workaround to fix this issue: https://github.com/Ks89/angular-modal-gallery/issues/142
-    if (this.config && !this.config.disableSsrWorkaround) {
-      // To prevent issues with angular-universal on server-side
-      if (typeof window !== 'undefined') {
-        this.mousetrap.bind(this.shortcuts, (event: KeyboardEvent, combo: string) => {
-          if (event.preventDefault) {
-            event.preventDefault();
-          } else {
-            // internet explorer
-            event.returnValue = false;
-          }
-          onBind(event, combo);
-        });
-      }
-    }
-  }
+  // add(onBind: (e: ExtendedKeyboardEvent, combo: string) => any) {
+  //   // temporary workaround to fix this issue: https://github.com/Ks89/angular-modal-gallery/issues/142
+  //   if (this.config && !this.config.disableSsrWorkaround) {
+  //     // To prevent issues with angular-universal on server-side
+  //     if (typeof window !== 'undefined') {
+  //       this.mousetrap.bind(this.shortcuts, (event: KeyboardEvent, combo: string) => {
+  //         if (event.preventDefault) {
+  //           event.preventDefault();
+  //         } else {
+  //           // internet explorer
+  //           event.returnValue = false;
+  //         }
+  //         onBind(event, combo);
+  //       });
+  //     }
+  //   }
+  // }
 
   /**
    * Method to reset all listeners. Please, call this function when needed

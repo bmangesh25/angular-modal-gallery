@@ -1,5 +1,5 @@
 {
-  "name": "@ks89/angular-modal-gallery",
+  "name": "@bmangesh/angular-image-gallery-view",
   "version": "7.0.0",
   "description": "Modal image gallery for Angular >=2",
   "license": "MIT",
@@ -7,7 +7,7 @@
   "homepage": "https://github.com/Ks89",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ks89/angular-modal-gallery.git"
+    "url": "git+https://github.com/bmangesh25/angular-modal-gallery.git"
   },
   "engines": {
     "node": ">=10.11.3",
